@@ -33,6 +33,7 @@ aquawatch/data/weather_raw/
 # Environment & logs
 .env
 *.log
+scratch/
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
