@@ -515,33 +515,30 @@ export default function LiveMonitor({ apiBase = "http://127.0.0.1:8000" }) {
 
               <button
                 onClick={() => setActiveLayer("osm")}
-                className={`px-3 py-1.5 rounded-lg text-xs font-medium transition ${
-                  activeLayer === "osm"
-                    ? "bg-cyan-500 text-white shadow-md shadow-cyan-500/20 font-bold"
-                    : "bg-slate-700/70 text-slate-300 hover:bg-slate-700"
-                }`}
+                className={`px-3 py-1.5 rounded-lg text-xs font-medium transition ${activeLayer === "osm"
+                  ? "bg-cyan-500 text-white shadow-md shadow-cyan-500/20 font-bold"
+                  : "bg-slate-700/70 text-slate-300 hover:bg-slate-700"
+                  }`}
               >
                 🗺️ Cartographic OSM
               </button>
 
               <button
                 onClick={() => setActiveLayer("modis")}
-                className={`px-3 py-1.5 rounded-lg text-xs font-medium transition ${
-                  activeLayer === "modis"
-                    ? "bg-cyan-500 text-white shadow-md shadow-cyan-500/20 font-bold"
-                    : "bg-slate-700/70 text-slate-300 hover:bg-slate-700"
-                }`}
+                className={`px-3 py-1.5 rounded-lg text-xs font-medium transition ${activeLayer === "modis"
+                  ? "bg-cyan-500 text-white shadow-md shadow-cyan-500/20 font-bold"
+                  : "bg-slate-700/70 text-slate-300 hover:bg-slate-700"
+                  }`}
               >
                 🛰️ NASA MODIS Terra (True Color)
               </button>
 
               <button
                 onClick={() => setActiveLayer("viirs")}
-                className={`px-3 py-1.5 rounded-lg text-xs font-medium transition ${
-                  activeLayer === "viirs"
-                    ? "bg-cyan-500 text-white shadow-md shadow-cyan-500/20 font-bold"
-                    : "bg-slate-700/70 text-slate-300 hover:bg-slate-700"
-                }`}
+                className={`px-3 py-1.5 rounded-lg text-xs font-medium transition ${activeLayer === "viirs"
+                  ? "bg-cyan-500 text-white shadow-md shadow-cyan-500/20 font-bold"
+                  : "bg-slate-700/70 text-slate-300 hover:bg-slate-700"
+                  }`}
               >
                 🛰️ NASA VIIRS SNPP (High-Res)
               </button>
@@ -685,11 +682,10 @@ export default function LiveMonitor({ apiBase = "http://127.0.0.1:8000" }) {
                       </span>
                       <div className="my-2">
                         <CloudRain
-                          className={`w-5 h-5 mx-auto ${
-                            f.precipitation_probability_pct > 50
-                              ? "text-cyan-400 animate-pulse"
-                              : "text-slate-500"
-                          }`}
+                          className={`w-5 h-5 mx-auto ${f.precipitation_probability_pct > 50
+                            ? "text-cyan-400 animate-pulse"
+                            : "text-slate-500"
+                            }`}
                         />
                       </div>
                       <div>

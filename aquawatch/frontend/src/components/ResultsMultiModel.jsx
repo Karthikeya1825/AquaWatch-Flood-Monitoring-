@@ -57,11 +57,10 @@ export default function ResultsMultiModel({
           <div className="mt-8 inline-flex p-1.5 rounded-2xl bg-slate-800 border border-slate-700/80 shadow-lg">
             <button
               onClick={() => setActiveTab("flood")}
-              className={`flex items-center gap-2 px-5 py-2.5 rounded-xl text-xs sm:text-sm font-bold transition ${
-                activeTab === "flood"
-                  ? "bg-cyan-500 text-white shadow-md shadow-cyan-500/30"
-                  : "text-slate-400 hover:text-white"
-              }`}
+              className={`flex items-center gap-2 px-5 py-2.5 rounded-xl text-xs sm:text-sm font-bold transition ${activeTab === "flood"
+                ? "bg-cyan-500 text-white shadow-md shadow-cyan-500/30"
+                : "text-slate-400 hover:text-white"
+                }`}
             >
               <Layers className="w-4 h-4" />
               1. Flood Segmentation (U-Net)
@@ -69,11 +68,10 @@ export default function ResultsMultiModel({
 
             <button
               onClick={() => setActiveTab("weather")}
-              className={`flex items-center gap-2 px-5 py-2.5 rounded-xl text-xs sm:text-sm font-bold transition ${
-                activeTab === "weather"
-                  ? "bg-cyan-500 text-white shadow-md shadow-cyan-500/30"
-                  : "text-slate-400 hover:text-white"
-              }`}
+              className={`flex items-center gap-2 px-5 py-2.5 rounded-xl text-xs sm:text-sm font-bold transition ${activeTab === "weather"
+                ? "bg-cyan-500 text-white shadow-md shadow-cyan-500/30"
+                : "text-slate-400 hover:text-white"
+                }`}
             >
               <Sparkles className="w-4 h-4" />
               2. Weather Classifier (EfficientNet-B0)
@@ -81,11 +79,10 @@ export default function ResultsMultiModel({
 
             <button
               onClick={() => setActiveTab("rain")}
-              className={`flex items-center gap-2 px-5 py-2.5 rounded-xl text-xs sm:text-sm font-bold transition ${
-                activeTab === "rain"
-                  ? "bg-cyan-500 text-white shadow-md shadow-cyan-500/30"
-                  : "text-slate-400 hover:text-white"
-              }`}
+              className={`flex items-center gap-2 px-5 py-2.5 rounded-xl text-xs sm:text-sm font-bold transition ${activeTab === "rain"
+                ? "bg-cyan-500 text-white shadow-md shadow-cyan-500/30"
+                : "text-slate-400 hover:text-white"
+                }`}
             >
               <CloudRain className="w-4 h-4" />
               3. Rain Predictor (RainLSTM)

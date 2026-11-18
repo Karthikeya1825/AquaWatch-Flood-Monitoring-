@@ -16,3 +16,4 @@ echo.
 echo All AquaWatch background services and dev servers have been stopped.
 echo ======================================================================
 pause
+

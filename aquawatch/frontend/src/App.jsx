@@ -206,81 +206,73 @@ export default function App() {
           <nav className="hidden md:flex items-center space-x-5 text-sm font-medium text-slate-300">
             <a
               href="#problem"
-              className={`transition-colors py-1 ${
-                activeSection === "problem"
-                  ? "text-[#19C3B1] font-bold border-b-2 border-[#19C3B1]"
-                  : "text-slate-300 hover:text-[#19C3B1]"
-              }`}
+              className={`transition-colors py-1 ${activeSection === "problem"
+                ? "text-[#19C3B1] font-bold border-b-2 border-[#19C3B1]"
+                : "text-slate-300 hover:text-[#19C3B1]"
+                }`}
             >
               Problem
             </a>
             <a
               href="#how-it-works"
-              className={`transition-colors py-1 ${
-                activeSection === "how-it-works"
-                  ? "text-[#19C3B1] font-bold border-b-2 border-[#19C3B1]"
-                  : "text-slate-300 hover:text-[#19C3B1]"
-              }`}
+              className={`transition-colors py-1 ${activeSection === "how-it-works"
+                ? "text-[#19C3B1] font-bold border-b-2 border-[#19C3B1]"
+                : "text-slate-300 hover:text-[#19C3B1]"
+                }`}
             >
               How It Works
             </a>
             <a
               href="#live-monitor"
-              className={`transition-colors py-1 ${
-                activeSection === "live-monitor"
-                  ? "text-[#19C3B1] font-bold border-b-2 border-[#19C3B1]"
-                  : "text-slate-300 hover:text-[#19C3B1]"
-              }`}
+              className={`transition-colors py-1 ${activeSection === "live-monitor"
+                ? "text-[#19C3B1] font-bold border-b-2 border-[#19C3B1]"
+                : "text-slate-300 hover:text-[#19C3B1]"
+                }`}
             >
               Live Monitor
             </a>
             <a
               href="#weather-detective"
-              className={`transition-colors py-1 ${
-                activeSection === "weather-detective"
-                  ? "text-[#19C3B1] font-bold border-b-2 border-[#19C3B1]"
-                  : "text-slate-300 hover:text-[#19C3B1]"
-              }`}
+              className={`transition-colors py-1 ${activeSection === "weather-detective"
+                ? "text-[#19C3B1] font-bold border-b-2 border-[#19C3B1]"
+                : "text-slate-300 hover:text-[#19C3B1]"
+                }`}
             >
               Weather Detective
             </a>
             <a
               href="#flood-analysis"
-              className={`transition-colors py-1 ${
-                activeSection === "flood-analysis"
-                  ? "text-[#19C3B1] font-bold border-b-2 border-[#19C3B1]"
-                  : "text-slate-300 hover:text-[#19C3B1]"
-              }`}
+              className={`transition-colors py-1 ${activeSection === "flood-analysis"
+                ? "text-[#19C3B1] font-bold border-b-2 border-[#19C3B1]"
+                : "text-slate-300 hover:text-[#19C3B1]"
+                }`}
             >
               Flood Analysis
             </a>
             <a
               href="#timeseries"
-              className={`transition-colors py-1 ${
-                activeSection === "timeseries"
-                  ? "text-[#19C3B1] font-bold border-b-2 border-[#19C3B1]"
-                  : "text-slate-300 hover:text-[#19C3B1]"
-              }`}
+              className={`transition-colors py-1 ${activeSection === "timeseries"
+                ? "text-[#19C3B1] font-bold border-b-2 border-[#19C3B1]"
+                : "text-slate-300 hover:text-[#19C3B1]"
+                }`}
             >
               Time Series
             </a>
             <a
               href="#results"
-              className={`transition-colors py-1 ${
-                activeSection === "results"
-                  ? "text-[#19C3B1] font-bold border-b-2 border-[#19C3B1]"
-                  : "text-slate-300 hover:text-[#19C3B1]"
-              }`}
+              className={`transition-colors py-1 ${activeSection === "results"
+                ? "text-[#19C3B1] font-bold border-b-2 border-[#19C3B1]"
+                : "text-slate-300 hover:text-[#19C3B1]"
+                }`}
             >
               Results
             </a>
             <a
               href="#about"
-              className={`transition-colors py-1 ${
-                activeSection === "about"
-                  ? "text-[#19C3B1] font-bold border-b-2 border-[#19C3B1]"
-                  : "text-slate-300 hover:text-[#19C3B1]"
-              }`}
+              className={`transition-colors py-1 ${activeSection === "about"
+                ? "text-[#19C3B1] font-bold border-b-2 border-[#19C3B1]"
+                : "text-slate-300 hover:text-[#19C3B1]"
+                }`}
             >
               About
             </a>
@@ -646,31 +638,28 @@ export default function App() {
                 <div className="grid grid-cols-3 gap-2 bg-slate-100 p-1.5 rounded-xl text-xs font-semibold">
                   <button
                     onClick={() => setActiveViewMode("satellite")}
-                    className={`py-2 px-3 rounded-lg transition-all ${
-                      activeViewMode === "satellite"
-                        ? "bg-white text-[#1D8CF8] shadow-sm font-bold"
-                        : "text-slate-600 hover:text-slate-900"
-                    }`}
+                    className={`py-2 px-3 rounded-lg transition-all ${activeViewMode === "satellite"
+                      ? "bg-white text-[#1D8CF8] shadow-sm font-bold"
+                      : "text-slate-600 hover:text-slate-900"
+                      }`}
                   >
                     Satellite RGB
                   </button>
                   <button
                     onClick={() => setActiveViewMode("mask")}
-                    className={`py-2 px-3 rounded-lg transition-all ${
-                      activeViewMode === "mask"
-                        ? "bg-white text-[#1D8CF8] shadow-sm font-bold"
-                        : "text-slate-600 hover:text-slate-900"
-                    }`}
+                    className={`py-2 px-3 rounded-lg transition-all ${activeViewMode === "mask"
+                      ? "bg-white text-[#1D8CF8] shadow-sm font-bold"
+                      : "text-slate-600 hover:text-slate-900"
+                      }`}
                   >
                     AI Water Mask
                   </button>
                   <button
                     onClick={() => setActiveViewMode("change")}
-                    className={`py-2 px-3 rounded-lg transition-all ${
-                      activeViewMode === "change"
-                        ? "bg-white text-[#FF8A3D] shadow-sm font-bold"
-                        : "text-slate-600 hover:text-slate-900"
-                    }`}
+                    className={`py-2 px-3 rounded-lg transition-all ${activeViewMode === "change"
+                      ? "bg-white text-[#FF8A3D] shadow-sm font-bold"
+                      : "text-slate-600 hover:text-slate-900"
+                      }`}
                   >
                     Change Map
                   </button>
@@ -828,8 +817,8 @@ export default function App() {
                 >
                   <defs>
                     <linearGradient id="waterAreaGradient" x1="0" y1="0" x2="0" y2="1">
-                      <stop offset="5%" stopColor="#1D8CF8" stopOpacity={0.8}/>
-                      <stop offset="95%" stopColor="#1D8CF8" stopOpacity={0.05}/>
+                      <stop offset="5%" stopColor="#1D8CF8" stopOpacity={0.8} />
+                      <stop offset="95%" stopColor="#1D8CF8" stopOpacity={0.05} />
                     </linearGradient>
                   </defs>
                   <CartesianGrid strokeDasharray="3 3" stroke="#E2E8F0" />
