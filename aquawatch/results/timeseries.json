@@ -1,0 +1,119 @@
+{
+  "region_id": "chembarambakkam_lake",
+  "region_name": "Chembarambakkam Lake, Chennai",
+  "year": 2023,
+  "is_real_data": true,
+  "source": "Sentinel-2 Level-2A 10m Observations (Tile 44PLV)",
+  "bounding_box_wgs84": [
+    79.98,
+    12.98,
+    80.08,
+    13.06
+  ],
+  "data": [
+    {
+      "month": "Jan",
+      "date": "2023-01-10",
+      "water_area_km2": 23.41,
+      "scene_id": "S2A_44PLV_20230110_0_L2A",
+      "cloud_cover_pct": 25.7,
+      "area_km2": 23.41
+    },
+    {
+      "month": "Feb",
+      "date": "2023-02-14",
+      "water_area_km2": 23.36,
+      "scene_id": "S2B_44PLV_20230214_0_L2A",
+      "cloud_cover_pct": 0.0,
+      "area_km2": 23.36
+    },
+    {
+      "month": "Mar",
+      "date": "2023-03-06",
+      "water_area_km2": 23.0,
+      "scene_id": "S2B_44PLV_20230306_0_L2A",
+      "cloud_cover_pct": 0.7,
+      "area_km2": 23.0
+    },
+    {
+      "month": "Apr",
+      "date": "2023-04-20",
+      "water_area_km2": 23.29,
+      "scene_id": "S2A_44PLV_20230420_0_L2A",
+      "cloud_cover_pct": 0.0,
+      "area_km2": 23.29
+    },
+    {
+      "month": "May",
+      "date": "2023-05-25",
+      "water_area_km2": 23.63,
+      "scene_id": "S2B_44PLV_20230525_0_L2A",
+      "cloud_cover_pct": 0.0,
+      "area_km2": 23.63
+    },
+    {
+      "month": "Jun",
+      "date": "2023-06-29",
+      "water_area_km2": 24.1,
+      "scene_id": "S2A_44PLV_20230629_0_L2A",
+      "cloud_cover_pct": 43.5,
+      "area_km2": 24.1
+    },
+    {
+      "month": "Jul",
+      "date": "2023-07-09",
+      "water_area_km2": 23.75,
+      "scene_id": "S2A_44PLV_20230709_0_L2A",
+      "cloud_cover_pct": 21.4,
+      "area_km2": 23.75
+    },
+    {
+      "month": "Aug",
+      "date": "2023-08-03",
+      "water_area_km2": 23.51,
+      "scene_id": "S2B_44PLV_20230803_0_L2A",
+      "cloud_cover_pct": 30.7,
+      "area_km2": 23.51
+    },
+    {
+      "month": "Sep",
+      "date": "2023-09-02",
+      "water_area_km2": 25.35,
+      "scene_id": "S2B_44PLV_20230902_0_L2A",
+      "cloud_cover_pct": 0.0,
+      "area_km2": 25.35
+    },
+    {
+      "month": "Oct",
+      "date": "2023-10-07",
+      "water_area_km2": 26.35,
+      "scene_id": "S2A_44PLV_20231007_0_L2A",
+      "cloud_cover_pct": 1.6,
+      "area_km2": 26.35
+    },
+    {
+      "month": "Nov",
+      "date": "2023-11-16",
+      "water_area_km2": 23.86,
+      "scene_id": "S2A_44PLV_20231116_0_L2A",
+      "cloud_cover_pct": 6.2,
+      "area_km2": 23.86
+    },
+    {
+      "month": "Dec",
+      "date": "2024-01-15",
+      "water_area_km2": 46.18,
+      "scene_id": "S2A_44PLV_20240115_0_L2A",
+      "cloud_cover_pct": 25.1,
+      "area_km2": 46.18
+    }
+  ],
+  "annotations": [
+    {
+      "month": "Dec",
+      "event": "Cyclone Michaung Flood Peak",
+      "water_area_km2": 46.18,
+      "note": "Catastrophic precipitation causes reservoir inflow to peak at >29,000 cusecs, inundating surrounding lowlands."
+    }
+  ]
+}

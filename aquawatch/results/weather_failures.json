@@ -1,0 +1,92 @@
+[
+  {
+    "filename": "train_cloudy123.jpg",
+    "path": "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\train_cloudy123.jpg",
+    "true_class": "Cloudy",
+    "predicted_class": "Shine",
+    "confidence": 50.95,
+    "is_error": true,
+    "reason": "Golden sunlight scattering mimics sunrise golden hour"
+  },
+  {
+    "filename": "train_cloudy113.jpg",
+    "path": "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\train_cloudy113.jpg",
+    "true_class": "Cloudy",
+    "predicted_class": "Shine",
+    "confidence": 54.71,
+    "is_error": true,
+    "reason": "Golden sunlight scattering mimics sunrise golden hour"
+  },
+  {
+    "filename": "train_cloudy45.jpg",
+    "path": "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\train_cloudy45.jpg",
+    "true_class": "Cloudy",
+    "predicted_class": "Shine",
+    "confidence": 60.52,
+    "is_error": true,
+    "reason": "Golden sunlight scattering mimics sunrise golden hour"
+  },
+  {
+    "filename": "train_shine143.jpg",
+    "path": "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\shine\\train_shine143.jpg",
+    "true_class": "Shine",
+    "predicted_class": "Cloudy",
+    "confidence": 72.1,
+    "is_error": true,
+    "reason": "Golden sunlight scattering mimics sunrise golden hour"
+  },
+  {
+    "filename": "train_cloudy126.jpg",
+    "path": "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\train_cloudy126.jpg",
+    "true_class": "Cloudy",
+    "predicted_class": "Shine",
+    "confidence": 60.53,
+    "is_error": true,
+    "reason": "Golden sunlight scattering mimics sunrise golden hour"
+  },
+  {
+    "filename": "train_sunrise121.jpg",
+    "path": "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\train_sunrise121.jpg",
+    "true_class": "Sunrise",
+    "predicted_class": "Shine",
+    "confidence": 49.05,
+    "is_error": true,
+    "reason": "Golden sunlight scattering mimics sunrise golden hour"
+  },
+  {
+    "filename": "test_cloudy265.jpg",
+    "path": "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\test_cloudy265.jpg",
+    "true_class": "Cloudy",
+    "predicted_class": "Cloudy",
+    "confidence": 47.69,
+    "is_error": false,
+    "reason": "Borderline probability: sky features share attributes of multiple classes"
+  },
+  {
+    "filename": "train_rain99.jpg",
+    "path": "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\rain\\train_rain99.jpg",
+    "true_class": "Rain",
+    "predicted_class": "Rain",
+    "confidence": 61.07,
+    "is_error": false,
+    "reason": "Borderline probability: sky features share attributes of multiple classes"
+  },
+  {
+    "filename": "train_shine116.jpg",
+    "path": "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\shine\\train_shine116.jpg",
+    "true_class": "Shine",
+    "predicted_class": "Shine",
+    "confidence": 63.59,
+    "is_error": false,
+    "reason": "Borderline probability: sky features share attributes of multiple classes"
+  },
+  {
+    "filename": "train_cloudy94.jpg",
+    "path": "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\train_cloudy94.jpg",
+    "true_class": "Cloudy",
+    "predicted_class": "Cloudy",
+    "confidence": 64.06,
+    "is_error": false,
+    "reason": "Borderline probability: sky features share attributes of multiple classes"
+  }
+]

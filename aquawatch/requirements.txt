@@ -1,0 +1,27 @@
+# AquaWatch: Deep Learning for Flood and Waterbody Change Detection
+# Core requirements for dataset preparation, training, evaluation, and backend API
+
+# Deep Learning & Computer Vision
+torch>=2.2.0
+torchvision>=0.17.0
+segmentation-models-pytorch>=0.3.3
+albumentations>=1.4.0
+scipy>=1.11.0
+
+# Geospatial & Imaging
+tifffile>=2024.1.0
+pillow>=10.0.0
+numpy>=1.24.0
+pandas>=2.0.0
+matplotlib>=3.8.0
+
+# API & Web Server
+fastapi>=0.110.0
+uvicorn[standard]>=0.28.0
+pydantic>=2.6.0
+python-multipart>=0.0.9
+
+# Utilities
+pyyaml>=6.0
+tqdm>=4.66.0
+requests>=2.31.0

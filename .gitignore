@@ -1,0 +1,42 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Production build
+dist/
+build/
+.vite/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+ENV/
+
+# Large binaries & archives over 100MB (GitHub file size limit)
+aquawatch/results/checkpoints/best_model.pt
+*.zip
+tools/
+
+# Raw dataset downloads (downloadable via scripts)
+aquawatch/data/raw/
+aquawatch/data/weather_raw/
+*.tif
+*.tiff
+
+# Environment & logs
+.env
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS Files
+.DS_Store
+Thumbs.db

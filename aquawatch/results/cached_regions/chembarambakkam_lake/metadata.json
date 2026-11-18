@@ -1,0 +1,37 @@
+{
+  "id": "chembarambakkam_lake",
+  "name": "Chembarambakkam Lake, Chennai",
+  "state_country": "Tamil Nadu, India",
+  "description": "Real Sentinel-2 Level-2A imagery of Chembarambakkam reservoir and Chennai basin capturing pre-flood baseline vs Cyclone Michaung flood expansion.",
+  "dates": [
+    "2023-10-07",
+    "2024-01-15"
+  ],
+  "event_label": "Cyclone Michaung (Dec 2023)",
+  "source_type": "Real Sentinel-2 L2A Satellite Observations (AWS Open Data / Copernicus)",
+  "bounding_box_wgs84": [
+    79.98,
+    12.98,
+    80.08,
+    13.06
+  ],
+  "mgrs_tile": "44PLV",
+  "scenes": {
+    "before": {
+      "id": "S2A_44PLV_20231007_0_L2A",
+      "date": "2023-10-07"
+    },
+    "after": {
+      "id": "S2A_44PLV_20240115_0_L2A",
+      "date": "2024-01-15"
+    }
+  },
+  "stats": {
+    "area_before_km2": 26.35,
+    "area_after_km2": 46.18,
+    "flooded_area_km2": 21.24,
+    "receded_area_km2": 1.41,
+    "pct_change": 75.3,
+    "is_real_data": true
+  }
+}

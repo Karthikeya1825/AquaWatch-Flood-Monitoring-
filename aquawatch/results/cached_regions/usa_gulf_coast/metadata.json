@@ -1,0 +1,27 @@
+{
+  "id": "usa_gulf_coast",
+  "name": "Gulf Coast Wetlands",
+  "state_country": "Louisiana, USA",
+  "description": "Coastal lowlands impacted by hurricane storm surges and backwater flooding.",
+  "dates": [
+    "2019-05-12",
+    "2019-06-02"
+  ],
+  "event_label": "Mississippi Spring Flood",
+  "stats": {
+    "area_before_km2": 4.447,
+    "area_after_km2": 5.477,
+    "diff_km2": 1.03,
+    "pct_change": 23.16,
+    "flooded_area_km2": 1.031,
+    "receded_area_km2": 0.0,
+    "unchanged_area_km2": 4.447
+  },
+  "images": {
+    "before_rgb": "/api/static/cached_regions/usa_gulf_coast/before_rgb.png",
+    "after_rgb": "/api/static/cached_regions/usa_gulf_coast/after_rgb.png",
+    "before_mask": "/api/static/cached_regions/usa_gulf_coast/before_mask.png",
+    "after_mask": "/api/static/cached_regions/usa_gulf_coast/after_mask.png",
+    "change_map": "/api/static/cached_regions/usa_gulf_coast/change_map.png"
+  }
+}

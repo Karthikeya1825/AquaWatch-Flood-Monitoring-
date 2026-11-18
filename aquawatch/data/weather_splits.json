@@ -1,0 +1,4515 @@
+{
+  "train": [
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\train_cloudy85.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\train_sunrise95.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\shine\\test_shine208.jpg",
+      2
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\train_cloudy35.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\train_cloudy65.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\train_cloudy129.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\rain\\train_rain134.jpg",
+      1
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\shine\\test_shine201.jpg",
+      2
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\train_sunrise167.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\train_sunrise72.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\shine\\train_shine27.jpg",
+      2
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\shine\\train_shine155.jpg",
+      2
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\train_sunrise21.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\rain\\test_rain213.jpg",
+      1
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\shine\\test_shine244.jpg",
+      2
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\train_sunrise14.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\shine\\train_shine164.jpg",
+      2
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\train_sunrise61.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\train_cloudy119.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\train_sunrise203.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\shine\\test_shine223.jpg",
+      2
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\train_sunrise117.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\test_sunrise351.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\train_cloudy87.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\train_sunrise197.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\train_cloudy139.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\shine\\test_shine236.jpg",
+      2
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\test_sunrise357.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\train_sunrise182.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\train_sunrise252.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\shine\\test_shine200.jpg",
+      2
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\train_cloudy86.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\train_cloudy132.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\rain\\train_rain91.jpg",
+      1
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\rain\\train_rain144.jpg",
+      1
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\train_sunrise136.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\rain\\train_rain96.jpg",
+      1
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\train_sunrise225.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\shine\\train_shine31.jpg",
+      2
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\shine\\train_shine18.jpg",
+      2
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\train_sunrise48.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\test_sunrise318.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\rain\\train_rain132.jpg",
+      1
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\rain\\train_rain122.jpg",
+      1
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\train_cloudy190.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\test_sunrise281.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\rain\\train_rain131.jpg",
+      1
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\rain\\train_rain70.jpg",
+      1
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\train_cloudy225.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\train_cloudy19.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\train_cloudy95.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\shine\\train_shine145.jpg",
+      2
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\train_sunrise181.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\shine\\train_shine161.jpg",
+      2
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\rain\\train_rain75.jpg",
+      1
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\rain\\train_rain149.jpg",
+      1
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\train_sunrise104.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\train_cloudy79.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\test_cloudy245.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\train_cloudy106.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\shine\\train_shine104.jpg",
+      2
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\test_sunrise331.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\train_sunrise42.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\rain\\train_rain108.jpg",
+      1
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\shine\\test_shine228.jpg",
+      2
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\train_cloudy30.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\train_cloudy2.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\train_sunrise18.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\train_sunrise141.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\train_cloudy191.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\test_cloudy262.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\train_sunrise107.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\rain\\train_rain7.jpg",
+      1
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\train_sunrise43.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\test_sunrise305.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\shine\\test_shine235.jpg",
+      2
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\train_sunrise226.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\shine\\train_shine77.jpg",
+      2
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\train_sunrise92.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\rain\\test_rain175.jpg",
+      1
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\train_cloudy92.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\shine\\train_shine184.jpg",
+      2
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\test_cloudy293.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\rain\\train_rain160.jpg",
+      1
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\rain\\test_rain162.jpg",
+      1
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\rain\\test_rain190.jpg",
+      1
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\rain\\train_rain54.jpg",
+      1
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\test_sunrise279.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\train_cloudy206.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\shine\\train_shine34.jpg",
+      2
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\shine\\train_shine182.jpg",
+      2
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\rain\\train_rain65.jpg",
+      1
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\shine\\test_shine191.jpg",
+      2
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\shine\\train_shine120.jpg",
+      2
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\shine\\train_shine135.jpg",
+      2
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\rain\\train_rain109.jpg",
+      1
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\rain\\train_rain130.jpg",
+      1
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\shine\\test_shine237.jpg",
+      2
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\shine\\train_shine55.jpg",
+      2
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\rain\\test_rain202.jpg",
+      1
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\test_sunrise313.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\rain\\test_rain163.jpg",
+      1
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\test_cloudy248.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\train_sunrise46.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\rain\\train_rain30.jpg",
+      1
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\train_cloudy197.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\train_sunrise91.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\train_sunrise196.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\train_sunrise231.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\train_sunrise30.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\test_sunrise317.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\shine\\train_shine12.jpg",
+      2
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\shine\\train_shine21.jpg",
+      2
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\shine\\train_shine78.jpg",
+      2
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\shine\\train_shine50.jpg",
+      2
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\test_cloudy256.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\train_sunrise74.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\train_sunrise151.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\train_sunrise220.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\train_sunrise146.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\train_sunrise195.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\train_sunrise250.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\train_cloudy43.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\train_sunrise239.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\rain\\train_rain153.jpg",
+      1
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\shine\\train_shine45.jpg",
+      2
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\train_cloudy207.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\train_cloudy69.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\train_cloudy193.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\rain\\train_rain51.jpg",
+      1
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\shine\\train_shine57.jpg",
+      2
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\shine\\train_shine106.jpg",
+      2
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\train_cloudy89.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\rain\\train_rain13.jpg",
+      1
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\test_cloudy281.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\train_cloudy83.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\train_sunrise176.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\test_sunrise289.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\train_sunrise186.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\train_cloudy73.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\train_sunrise145.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\rain\\train_rain39.jpg",
+      1
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\rain\\train_rain72.jpg",
+      1
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\train_sunrise88.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\rain\\train_rain150.jpg",
+      1
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\test_cloudy263.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\train_cloudy118.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\rain\\train_rain55.jpg",
+      1
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\rain\\test_rain206.jpg",
+      1
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\rain\\train_rain124.jpg",
+      1
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\test_sunrise342.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\rain\\train_rain57.jpg",
+      1
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\shine\\train_shine137.jpg",
+      2
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\train_sunrise213.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\rain\\train_rain120.jpg",
+      1
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\train_sunrise235.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\shine\\test_shine240.jpg",
+      2
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\test_sunrise335.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\shine\\train_shine154.jpg",
+      2
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\rain\\train_rain17.jpg",
+      1
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\train_cloudy178.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\rain\\train_rain74.jpg",
+      1
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\shine\\train_shine93.jpg",
+      2
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\shine\\test_shine224.jpg",
+      2
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\rain\\train_rain33.jpg",
+      1
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\rain\\train_rain18.jpg",
+      1
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\train_sunrise17.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\train_cloudy51.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\train_cloudy187.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\test_sunrise310.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\train_sunrise153.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\rain\\train_rain60.jpg",
+      1
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\shine\\test_shine197.jpg",
+      2
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\train_cloudy37.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\train_sunrise65.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\train_sunrise81.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\shine\\train_shine25.jpg",
+      2
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\train_sunrise4.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\train_sunrise11.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\test_cloudy294.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\shine\\train_shine30.jpg",
+      2
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\shine\\train_shine38.jpg",
+      2
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\shine\\test_shine251.jpg",
+      2
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\shine\\train_shine126.jpg",
+      2
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\test_sunrise307.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\rain\\test_rain172.jpg",
+      1
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\train_sunrise6.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\rain\\train_rain128.jpg",
+      1
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\train_cloudy54.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\rain\\train_rain25.jpg",
+      1
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\train_cloudy199.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\rain\\train_rain23.jpg",
+      1
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\train_cloudy12.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\train_sunrise2.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\test_sunrise356.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\train_cloudy16.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\test_sunrise336.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\train_sunrise241.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\train_sunrise31.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\train_sunrise79.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\train_cloudy96.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\shine\\test_shine204.jpg",
+      2
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\train_sunrise189.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\train_cloudy32.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\train_sunrise58.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\shine\\train_shine22.jpg",
+      2
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\train_cloudy34.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\train_cloudy156.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\train_sunrise147.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\train_cloudy101.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\shine\\train_shine95.jpg",
+      2
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\train_cloudy74.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\train_cloudy57.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\shine\\train_shine7.jpg",
+      2
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\train_sunrise111.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\train_sunrise177.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\rain\\train_rain24.jpeg",
+      1
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\rain\\test_rain192.jpg",
+      1
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\train_sunrise125.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\rain\\train_rain8.jpg",
+      1
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\shine\\test_shine238.jpg",
+      2
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\train_sunrise152.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\train_sunrise249.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\train_cloudy136.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\train_sunrise175.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\train_cloudy29.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\rain\\train_rain31.jpg",
+      1
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\train_sunrise122.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\shine\\train_shine148.jpg",
+      2
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\train_sunrise40.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\shine\\train_shine149.jpg",
+      2
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\shine\\train_shine172.jpg",
+      2
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\train_sunrise173.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\shine\\train_shine26.jpg",
+      2
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\shine\\train_shine10.jpg",
+      2
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\rain\\train_rain10.jpg",
+      1
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\test_cloudy267.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\rain\\train_rain85.jpg",
+      1
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\test_cloudy268.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\shine\\train_shine102.jpg",
+      2
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\train_cloudy114.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\test_cloudy258.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\train_sunrise109.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\rain\\train_rain145.jpg",
+      1
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\test_cloudy292.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\train_cloudy150.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\train_cloudy137.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\test_cloudy259.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\train_cloudy192.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\rain\\train_rain138.jpg",
+      1
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\test_sunrise308.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\rain\\train_rain111.jpg",
+      1
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\train_cloudy157.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\test_sunrise332.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\test_sunrise325.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\rain\\train_rain146.jpg",
+      1
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\test_cloudy261.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\train_cloudy215.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\train_sunrise190.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\rain\\train_rain32.jpg",
+      1
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\shine\\train_shine48.jpg",
+      2
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\train_sunrise102.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\train_cloudy133.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\shine\\train_shine176.jpg",
+      2
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\test_sunrise297.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\train_sunrise73.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\train_cloudy167.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\rain\\train_rain123.jpg",
+      1
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\rain\\train_rain114.jpg",
+      1
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\test_cloudy237.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\rain\\train_rain95.jpg",
+      1
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\test_sunrise288.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\test_cloudy251.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\train_sunrise36.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\train_sunrise229.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\train_cloudy205.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\test_cloudy238.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\shine\\train_shine107.jpg",
+      2
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\shine\\train_shine139.jpg",
+      2
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\train_sunrise99.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\rain\\train_rain159.jpg",
+      1
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\train_sunrise10.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\rain\\test_rain184.jpg",
+      1
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\test_cloudy289.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\train_cloudy25.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\rain\\train_rain110.jpg",
+      1
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\shine\\train_shine189.jpg",
+      2
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\train_cloudy105.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\train_cloudy22.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\rain\\train_rain115.jpg",
+      1
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\shine\\train_shine56.jpg",
+      2
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\shine\\train_shine24.jpg",
+      2
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\shine\\train_shine100.jpg",
+      2
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\shine\\train_shine16.jpg",
+      2
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\train_cloudy53.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\test_cloudy243.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\rain\\train_rain98.jpg",
+      1
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\rain\\train_rain83.jpg",
+      1
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\train_sunrise13.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\train_sunrise266.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\test_sunrise328.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\shine\\train_shine62.jpg",
+      2
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\train_cloudy81.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\test_cloudy287.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\train_sunrise185.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\train_cloudy211.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\train_cloudy100.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\shine\\train_shine127.jpg",
+      2
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\train_cloudy185.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\rain\\train_rain105.jpg",
+      1
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\train_sunrise200.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\shine\\train_shine188.jpg",
+      2
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\train_cloudy122.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\train_sunrise49.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\train_sunrise257.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\shine\\train_shine59.jpg",
+      2
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\train_sunrise75.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\train_sunrise19.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\train_sunrise236.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\rain\\test_rain208.jpg",
+      1
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\shine\\test_shine192.jpg",
+      2
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\train_cloudy8.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\train_cloudy62.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\train_sunrise133.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\shine\\train_shine98.jpg",
+      2
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\rain\\train_rain141.jpg",
+      1
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\shine\\test_shine246.jpg",
+      2
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\shine\\train_shine180.jpg",
+      2
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\test_sunrise287.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\shine\\train_shine5.jpg",
+      2
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\rain\\train_rain50.jpg",
+      1
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\rain\\train_rain45.jpg",
+      1
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\rain\\test_rain177.jpg",
+      1
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\test_cloudy233.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\test_cloudy236.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\train_cloudy49.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\test_sunrise283.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\train_sunrise135.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\train_cloudy112.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\train_cloudy182.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\rain\\train_rain58.jpg",
+      1
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\shine\\train_shine177.jpg",
+      2
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\test_sunrise284.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\test_cloudy299.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\shine\\train_shine61.jpg",
+      2
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\shine\\train_shine185.jpg",
+      2
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\rain\\test_rain214.jpg",
+      1
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\shine\\train_shine158.jpg",
+      2
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\train_cloudy47.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\train_sunrise1.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\shine\\train_shine49.jpg",
+      2
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\train_cloudy198.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\rain\\train_rain136.jpg",
+      1
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\train_cloudy68.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\rain\\train_rain156.jpg",
+      1
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\train_sunrise35.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\rain\\test_rain169.jpg",
+      1
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\train_cloudy6.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\rain\\train_rain158.jpg",
+      1
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\shine\\train_shine165.jpg",
+      2
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\train_sunrise50.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\shine\\train_shine28.jpg",
+      2
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\train_sunrise126.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\train_cloudy108.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\shine\\test_shine196.jpg",
+      2
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\train_sunrise47.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\train_cloudy220.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\train_sunrise130.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\rain\\train_rain64.jpg",
+      1
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\train_sunrise108.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\shine\\train_shine63.jpg",
+      2
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\shine\\train_shine101.jpg",
+      2
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\train_cloudy180.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\train_cloudy76.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\test_cloudy231.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\shine\\test_shine225.jpg",
+      2
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\shine\\train_shine79.jpg",
+      2
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\shine\\test_shine195.jpg",
+      2
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\train_sunrise22.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\test_sunrise340.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\train_cloudy39.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\rain\\train_rain102.jpg",
+      1
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\train_sunrise149.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\rain\\train_rain126.jpg",
+      1
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\rain\\train_rain116.jpg",
+      1
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\rain\\train_rain157.jpg",
+      1
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\test_sunrise278.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\shine\\train_shine150.jpg",
+      2
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\train_cloudy158.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\shine\\train_shine151.jpg",
+      2
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\shine\\train_shine125.jpg",
+      2
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\rain\\train_rain86.jpg",
+      1
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\shine\\test_shine194.jpg",
+      2
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\train_sunrise15.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\test_sunrise323.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\train_sunrise265.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\train_sunrise60.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\train_cloudy145.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\train_sunrise161.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\rain\\train_rain3.jpg",
+      1
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\train_cloudy161.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\test_cloudy253.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\shine\\test_shine222.jpg",
+      2
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\train_sunrise262.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\rain\\train_rain89.jpg",
+      1
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\test_cloudy285.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\test_sunrise270.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\test_sunrise277.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\train_sunrise169.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\rain\\train_rain1.jpg",
+      1
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\rain\\train_rain129.jpg",
+      1
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\train_cloudy7.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\train_sunrise238.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\train_sunrise112.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\shine\\train_shine64.jpg",
+      2
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\test_sunrise355.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\test_cloudy228.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\rain\\train_rain63.jpg",
+      1
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\shine\\train_shine87.jpg",
+      2
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\train_sunrise139.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\shine\\train_shine115.jpg",
+      2
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\train_sunrise90.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\train_cloudy41.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\train_sunrise208.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\train_sunrise179.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\train_sunrise62.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\train_sunrise232.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\train_sunrise205.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\shine\\train_shine118.jpg",
+      2
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\train_cloudy160.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\train_sunrise124.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\train_cloudy169.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\train_sunrise24.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\train_cloudy188.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\shine\\train_shine68.jpg",
+      2
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\rain\\train_rain112.jpg",
+      1
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\train_sunrise105.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\train_sunrise237.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\shine\\test_shine193.jpg",
+      2
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\rain\\train_rain4.jpg",
+      1
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\shine\\test_shine230.jpg",
+      2
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\train_sunrise193.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\shine\\train_shine159.jpg",
+      2
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\shine\\test_shine253.jpg",
+      2
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\rain\\train_rain77.jpg",
+      1
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\train_cloudy121.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\rain\\train_rain22.jpeg",
+      1
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\rain\\train_rain87.jpg",
+      1
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\shine\\train_shine92.jpg",
+      2
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\shine\\test_shine250.jpg",
+      2
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\train_sunrise129.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\rain\\test_rain170.jpg",
+      1
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\test_sunrise299.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\shine\\train_shine23.jpg",
+      2
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\train_sunrise253.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\train_sunrise259.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\shine\\train_shine140.jpg",
+      2
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\rain\\train_rain113.jpg",
+      1
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\test_sunrise304.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\rain\\test_rain171.jpg",
+      1
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\rain\\test_rain205.jpg",
+      1
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\rain\\train_rain94.jpg",
+      1
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\shine\\train_shine86.jpg",
+      2
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\train_sunrise255.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\test_cloudy277.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\test_sunrise320.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\rain\\train_rain27.jpg",
+      1
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\train_sunrise178.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\shine\\train_shine121.jpg",
+      2
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\train_sunrise20.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\shine\\train_shine76.jpg",
+      2
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\shine\\train_shine46.jpg",
+      2
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\test_sunrise327.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\train_sunrise261.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\shine\\train_shine60.jpg",
+      2
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\shine\\test_shine216.jpg",
+      2
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\shine\\train_shine190.jpg",
+      2
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\train_sunrise207.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\train_sunrise137.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\shine\\test_shine233.jpg",
+      2
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\train_cloudy196.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\train_sunrise163.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\train_sunrise188.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\train_sunrise170.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\train_cloudy70.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\shine\\test_shine210.jpg",
+      2
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\train_sunrise172.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\train_cloudy117.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\rain\\train_rain90.jpg",
+      1
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\test_sunrise309.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\train_sunrise166.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\rain\\test_rain173.jpg",
+      1
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\train_cloudy186.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\test_sunrise348.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\shine\\train_shine33.jpg",
+      2
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\train_cloudy128.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\train_cloudy21.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\test_cloudy271.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\rain\\train_rain52.jpg",
+      1
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\test_cloudy257.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\shine\\train_shine52.jpg",
+      2
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\train_sunrise80.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\shine\\train_shine186.jpg",
+      2
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\shine\\train_shine88.jpg",
+      2
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\shine\\test_shine249.jpg",
+      2
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\shine\\train_shine37.jpg",
+      2
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\train_sunrise219.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\rain\\train_rain20.jpg",
+      1
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\train_sunrise144.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\train_sunrise206.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\train_sunrise77.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\rain\\train_rain43.jpg",
+      1
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\train_sunrise156.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\train_sunrise209.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\rain\\train_rain140.jpg",
+      1
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\test_sunrise345.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\rain\\train_rain46.jpg",
+      1
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\train_cloudy134.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\train_sunrise16.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\train_cloudy28.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\test_sunrise293.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\train_cloudy4.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\shine\\test_shine234.jpg",
+      2
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\train_sunrise216.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\test_cloudy241.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\shine\\test_shine221.jpg",
+      2
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\train_cloudy26.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\shine\\train_shine138.jpg",
+      2
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\shine\\train_shine167.jpg",
+      2
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\train_cloudy179.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\rain\\test_rain176.jpg",
+      1
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\rain\\train_rain16.jpg",
+      1
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\train_sunrise86.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\test_cloudy283.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\shine\\train_shine65.jpg",
+      2
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\train_sunrise115.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\train_sunrise192.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\test_cloudy286.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\rain\\test_rain194.jpg",
+      1
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\shine\\test_shine217.jpg",
+      2
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\test_cloudy295.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\shine\\train_shine85.jpg",
+      2
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\train_sunrise201.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\train_cloudy219.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\test_cloudy244.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\test_sunrise352.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\shine\\train_shine156.jpg",
+      2
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\train_cloudy155.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\test_cloudy272.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\train_sunrise263.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\train_sunrise70.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\train_cloudy38.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\rain\\train_rain66.jpg",
+      1
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\train_sunrise215.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\train_sunrise87.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\train_cloudy36.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\train_sunrise51.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\shine\\test_shine198.jpg",
+      2
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\train_cloudy174.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\test_sunrise300.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\shine\\train_shine113.jpg",
+      2
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\shine\\train_shine54.jpg",
+      2
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\shine\\train_shine123.jpg",
+      2
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\test_sunrise303.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\train_sunrise93.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\shine\\test_shine205.jpg",
+      2
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\test_sunrise330.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\test_sunrise344.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\rain\\test_rain183.jpg",
+      1
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\rain\\train_rain53.jpg",
+      1
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\test_cloudy282.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\shine\\train_shine114.jpg",
+      2
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\train_sunrise223.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\train_cloudy164.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\rain\\train_rain80.jpg",
+      1
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\rain\\test_rain203.jpg",
+      1
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\train_cloudy59.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\train_sunrise217.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\shine\\train_shine160.jpg",
+      2
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\train_cloudy42.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\train_sunrise83.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\test_cloudy255.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\train_sunrise94.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\train_sunrise37.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\rain\\train_rain107.jpg",
+      1
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\shine\\train_shine162.jpg",
+      2
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\train_cloudy84.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\train_sunrise78.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\train_sunrise164.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\train_sunrise143.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\shine\\train_shine111.jpg",
+      2
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\shine\\train_shine133.jpg",
+      2
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\rain\\train_rain67.jpg",
+      1
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\train_cloudy58.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\rain\\train_rain118.jpg",
+      1
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\train_cloudy82.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\train_sunrise53.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\test_sunrise326.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\test_sunrise306.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\train_cloudy3.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\train_cloudy9.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\test_cloudy250.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\train_cloudy115.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\train_sunrise55.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\train_cloudy10.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\train_sunrise165.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\train_cloudy63.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\train_sunrise69.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\train_cloudy195.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\train_sunrise247.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\shine\\train_shine1.jpg",
+      2
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\test_cloudy235.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\shine\\train_shine124.jpg",
+      2
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\rain\\train_rain119.jpg",
+      1
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\rain\\train_rain117.jpg",
+      1
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\test_cloudy230.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\rain\\test_rain181.jpg",
+      1
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\rain\\train_rain121.jpg",
+      1
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\rain\\test_rain164.jpg",
+      1
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\test_sunrise339.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\shine\\test_shine219.jpg",
+      2
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\shine\\train_shine58.jpg",
+      2
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\test_cloudy288.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\train_cloudy5.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\train_cloudy144.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\train_cloudy204.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\test_cloudy291.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\train_sunrise66.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\rain\\train_rain93.jpg",
+      1
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\shine\\train_shine97.jpg",
+      2
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\shine\\train_shine122.jpg",
+      2
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\train_sunrise198.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\train_cloudy44.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\rain\\test_rain199.jpg",
+      1
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\rain\\train_rain88.jpg",
+      1
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\rain\\train_rain14.jpg",
+      1
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\shine\\train_shine173.jpg",
+      2
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\shine\\train_shine112.jpg",
+      2
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\train_cloudy209.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\shine\\train_shine153.jpg",
+      2
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\train_sunrise211.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\shine\\train_shine29.jpg",
+      2
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\shine\\train_shine105.jpg",
+      2
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\train_cloudy170.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\test_sunrise347.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\test_sunrise350.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\shine\\train_shine129.jpg",
+      2
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\train_sunrise123.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\train_cloudy146.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\train_cloudy102.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\train_cloudy71.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\rain\\train_rain147.jpg",
+      1
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\train_cloudy208.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\test_sunrise338.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\test_sunrise274.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\test_cloudy254.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\shine\\train_shine96.jpg",
+      2
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\shine\\test_shine214.jpg",
+      2
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\shine\\train_shine82.jpg",
+      2
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\train_cloudy217.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\rain\\train_rain62.jpg",
+      1
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\train_cloudy107.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\test_cloudy298.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\test_cloudy242.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\train_sunrise260.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\train_sunrise85.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\test_sunrise286.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\train_sunrise134.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\train_sunrise222.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\train_sunrise148.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\rain\\train_rain97.jpg",
+      1
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\rain\\train_rain12.jpg",
+      1
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\train_cloudy1.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\rain\\test_rain166.jpg",
+      1
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\shine\\test_shine231.jpg",
+      2
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\train_sunrise68.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\train_cloudy13.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\rain\\train_rain59.jpg",
+      1
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\shine\\train_shine134.jpg",
+      2
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\test_cloudy252.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\train_sunrise155.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\train_sunrise38.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\train_cloudy138.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\shine\\train_shine175.jpg",
+      2
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\train_cloudy175.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\shine\\train_shine71.jpg",
+      2
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\train_sunrise243.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\train_cloudy97.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\rain\\train_rain56.jpg",
+      1
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\train_sunrise44.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\train_sunrise82.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\rain\\test_rain168.jpg",
+      1
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\train_cloudy52.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\train_cloudy109.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\shine\\train_shine2.jpg",
+      2
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\train_cloudy213.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\train_cloudy111.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\test_sunrise312.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\test_sunrise295.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\train_cloudy221.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\train_cloudy165.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\shine\\train_shine90.jpg",
+      2
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\train_cloudy14.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\rain\\train_rain48.jpg",
+      1
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\shine\\train_shine36.jpg",
+      2
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\shine\\train_shine4.jpg",
+      2
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\rain\\train_rain151.jpg",
+      1
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\train_sunrise28.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\test_sunrise333.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\train_cloudy18.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\rain\\test_rain201.jpg",
+      1
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\shine\\train_shine69.jpg",
+      2
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\rain\\train_rain36.jpg",
+      1
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\train_cloudy135.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\rain\\train_rain142.jpg",
+      1
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\train_sunrise159.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\rain\\test_rain197.jpg",
+      1
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\train_sunrise140.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\test_sunrise301.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\shine\\train_shine74.jpg",
+      2
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\rain\\train_rain29.jpg",
+      1
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\test_sunrise353.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\test_cloudy300.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\train_sunrise29.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\shine\\test_shine241.jpg",
+      2
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\train_cloudy143.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\train_cloudy131.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\shine\\test_shine239.jpg",
+      2
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\train_cloudy50.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\train_sunrise116.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\test_sunrise292.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\test_cloudy232.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\rain\\train_rain125.jpg",
+      1
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\train_cloudy154.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\train_cloudy223.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\shine\\train_shine170.jpg",
+      2
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\train_sunrise199.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\train_cloudy159.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\train_cloudy125.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\train_sunrise174.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\test_sunrise354.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\train_cloudy93.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\train_sunrise39.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\shine\\train_shine108.jpg",
+      2
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\rain\\test_rain212.jpg",
+      1
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\shine\\train_shine110.jpg",
+      2
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\shine\\train_shine181.jpg",
+      2
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\train_cloudy153.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\shine\\train_shine73.jpg",
+      2
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\train_cloudy148.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\train_sunrise97.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\shine\\train_shine17.jpg",
+      2
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\rain\\train_rain38.jpg",
+      1
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\train_sunrise120.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\train_sunrise227.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\train_cloudy163.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\rain\\test_rain180.jpg",
+      1
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\shine\\train_shine187.jpg",
+      2
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\train_cloudy141.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\train_cloudy171.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\rain\\train_rain35.jpg",
+      1
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\shine\\train_shine42.jpg",
+      2
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\train_sunrise150.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\shine\\train_shine13.jpg",
+      2
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\train_sunrise96.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\train_cloudy214.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\test_cloudy226.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\shine\\test_shine245.jpg",
+      2
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\train_sunrise258.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\rain\\train_rain106.jpg",
+      1
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\shine\\train_shine146.jpg",
+      2
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\test_sunrise291.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\test_sunrise285.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\shine\\test_shine212.jpg",
+      2
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\test_sunrise272.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\rain\\test_rain195.jpg",
+      1
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\rain\\train_rain9.jpg",
+      1
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\shine\\test_shine206.jpg",
+      2
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\train_cloudy173.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\train_cloudy194.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\shine\\train_shine94.jpg",
+      2
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\train_sunrise160.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\train_cloudy31.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\test_cloudy264.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\train_cloudy183.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\rain\\train_rain148.jpg",
+      1
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\rain\\train_rain34.jpg",
+      1
+    ]
+  ],
+  "val": [
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\train_cloudy149.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\rain\\train_rain6.jpg",
+      1
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\train_cloudy64.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\shine\\train_shine75.jpg",
+      2
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\shine\\train_shine67.jpg",
+      2
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\shine\\train_shine131.jpg",
+      2
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\train_sunrise98.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\rain\\train_rain127.jpg",
+      1
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\shine\\train_shine80.jpg",
+      2
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\train_cloudy127.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\test_cloudy234.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\train_sunrise127.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\test_cloudy278.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\rain\\train_rain71.jpg",
+      1
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\train_sunrise100.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\train_sunrise59.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\train_cloudy116.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\rain\\train_rain137.jpg",
+      1
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\train_sunrise7.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\rain\\train_rain133.jpg",
+      1
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\rain\\train_rain82.jpg",
+      1
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\test_sunrise298.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\train_sunrise25.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\train_cloudy40.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\test_cloudy297.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\train_cloudy23.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\train_sunrise267.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\rain\\test_rain196.jpg",
+      1
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\train_cloudy201.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\test_sunrise349.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\rain\\train_rain135.jpg",
+      1
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\shine\\train_shine41.jpg",
+      2
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\shine\\train_shine70.jpg",
+      2
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\shine\\test_shine252.jpg",
+      2
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\test_sunrise321.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\train_sunrise27.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\test_cloudy247.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\train_sunrise33.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\train_cloudy60.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\train_cloudy90.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\test_sunrise315.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\train_sunrise57.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\test_sunrise316.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\train_cloudy110.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\test_cloudy284.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\shine\\test_shine209.jpg",
+      2
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\shine\\train_shine141.jpg",
+      2
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\test_sunrise343.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\shine\\train_shine132.jpg",
+      2
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\train_sunrise103.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\train_cloudy130.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\shine\\train_shine168.jpg",
+      2
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\shine\\train_shine91.jpg",
+      2
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\rain\\train_rain28.jpg",
+      1
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\test_sunrise322.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\train_sunrise114.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\train_cloudy48.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\shine\\train_shine8.jpg",
+      2
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\train_cloudy98.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\shine\\train_shine99.jpg",
+      2
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\train_cloudy27.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\train_sunrise230.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\train_sunrise32.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\train_cloudy67.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\shine\\train_shine81.jpg",
+      2
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\rain\\train_rain76.jpg",
+      1
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\shine\\train_shine44.jpg",
+      2
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\train_sunrise142.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\train_cloudy210.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\train_sunrise248.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\train_sunrise154.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\shine\\train_shine72.jpg",
+      2
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\test_sunrise302.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\test_sunrise273.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\test_cloudy240.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\rain\\train_rain104.jpg",
+      1
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\train_sunrise41.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\rain\\train_rain11.jpg",
+      1
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\rain\\train_rain26.jpg",
+      1
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\shine\\test_shine242.jpg",
+      2
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\shine\\train_shine179.jpg",
+      2
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\rain\\train_rain49.jpg",
+      1
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\train_cloudy142.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\train_sunrise184.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\train_sunrise214.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\train_cloudy172.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\train_cloudy151.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\train_cloudy184.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\train_cloudy77.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\rain\\train_rain154.jpg",
+      1
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\shine\\test_shine247.jpg",
+      2
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\shine\\test_shine215.jpg",
+      2
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\shine\\train_shine89.jpg",
+      2
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\train_sunrise187.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\train_sunrise128.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\shine\\train_shine136.jpg",
+      2
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\test_sunrise282.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\train_sunrise191.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\train_cloudy140.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\train_cloudy55.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\train_sunrise221.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\test_cloudy229.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\train_sunrise106.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\train_cloudy24.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\rain\\test_rain185.jpg",
+      1
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\test_sunrise271.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\rain\\test_rain174.jpg",
+      1
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\shine\\train_shine3.jpg",
+      2
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\shine\\train_shine142.jpg",
+      2
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\shine\\train_shine15.jpg",
+      2
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\test_cloudy273.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\rain\\train_rain81.jpg",
+      1
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\shine\\test_shine218.jpg",
+      2
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\train_cloudy152.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\train_sunrise157.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\shine\\test_shine211.jpg",
+      2
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\train_sunrise228.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\rain\\train_rain84.jpg",
+      1
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\train_sunrise23.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\shine\\train_shine19.jpg",
+      2
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\shine\\train_shine9.jpg",
+      2
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\train_sunrise264.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\shine\\test_shine199.jpg",
+      2
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\train_sunrise204.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\test_cloudy260.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\rain\\train_rain5.jpg",
+      1
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\train_cloudy56.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\rain\\test_rain198.jpg",
+      1
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\rain\\train_rain21.jpg",
+      1
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\test_sunrise275.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\train_sunrise254.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\train_sunrise67.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\test_sunrise337.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\rain\\train_rain78.jpg",
+      1
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\rain\\test_rain207.jpg",
+      1
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\train_sunrise76.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\test_sunrise324.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\rain\\train_rain101.jpg",
+      1
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\shine\\train_shine119.jpg",
+      2
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\shine\\train_shine51.jpg",
+      2
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\shine\\train_shine39.jpg",
+      2
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\train_cloudy72.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\rain\\train_rain15.jpg",
+      1
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\train_cloudy75.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\test_cloudy280.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\rain\\train_rain155.jpg",
+      1
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\train_sunrise212.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\rain\\train_rain100.jpg",
+      1
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\train_cloudy176.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\rain\\test_rain200.jpg",
+      1
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\shine\\test_shine213.jpg",
+      2
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\train_cloudy168.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\test_cloudy290.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\test_cloudy266.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\train_sunrise118.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\train_sunrise268.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\train_cloudy181.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\train_sunrise244.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\train_sunrise180.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\train_sunrise8.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\test_sunrise346.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\shine\\test_shine203.jpg",
+      2
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\test_cloudy275.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\shine\\test_shine220.jpg",
+      2
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\train_cloudy162.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\shine\\train_shine84.jpg",
+      2
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\rain\\test_rain167.jpg",
+      1
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\rain\\train_rain103.jpg",
+      1
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\rain\\test_rain188.jpg",
+      1
+    ]
+  ],
+  "test": [
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\train_sunrise34.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\shine\\train_shine152.jpg",
+      2
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\train_sunrise242.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\test_cloudy265.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\shine\\test_shine226.jpg",
+      2
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\train_sunrise3.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\shine\\train_shine116.jpg",
+      2
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\shine\\train_shine171.jpg",
+      2
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\shine\\train_shine6.jpg",
+      2
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\shine\\train_shine169.jpg",
+      2
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\shine\\train_shine14.jpg",
+      2
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\train_cloudy33.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\rain\\train_rain44.jpg",
+      1
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\train_sunrise240.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\shine\\train_shine144.jpg",
+      2
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\shine\\train_shine103.jpg",
+      2
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\shine\\train_shine109.jpg",
+      2
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\rain\\train_rain139.jpg",
+      1
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\train_cloudy222.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\rain\\train_rain61.jpg",
+      1
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\rain\\train_rain41.jpg",
+      1
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\rain\\test_rain178.jpg",
+      1
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\test_cloudy249.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\train_sunrise162.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\test_cloudy269.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\rain\\train_rain143.jpg",
+      1
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\train_sunrise45.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\rain\\test_rain210.jpg",
+      1
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\shine\\train_shine130.jpg",
+      2
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\train_cloudy218.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\train_cloudy123.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\shine\\train_shine183.jpg",
+      2
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\rain\\test_rain204.jpg",
+      1
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\shine\\train_shine20.jpg",
+      2
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\train_cloudy91.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\test_sunrise280.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\shine\\test_shine248.jpg",
+      2
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\test_sunrise311.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\shine\\train_shine166.jpg",
+      2
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\shine\\train_shine117.jpg",
+      2
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\rain\\train_rain42.jpg",
+      1
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\shine\\train_shine157.jpg",
+      2
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\test_cloudy227.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\shine\\train_shine163.jpg",
+      2
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\test_sunrise319.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\train_sunrise138.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\rain\\test_rain186.jpg",
+      1
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\train_cloudy113.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\rain\\test_rain182.jpg",
+      1
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\train_cloudy45.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\train_cloudy212.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\train_sunrise234.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\train_cloudy94.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\train_sunrise89.jpeg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\rain\\test_rain193.jpg",
+      1
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\rain\\train_rain92.jpg",
+      1
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\train_sunrise131.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\train_cloudy66.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\train_cloudy61.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\rain\\train_rain79.jpg",
+      1
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\test_cloudy270.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\train_sunrise183.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\train_sunrise113.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\train_sunrise54.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\train_cloudy200.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\train_sunrise251.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\train_sunrise158.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\shine\\train_shine47.jpg",
+      2
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\rain\\train_rain152.jpg",
+      1
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\rain\\test_rain211.jpg",
+      1
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\test_sunrise276.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\train_sunrise26.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\rain\\test_rain187.jpg",
+      1
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\rain\\train_rain69.jpg",
+      1
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\test_sunrise296.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\train_cloudy202.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\rain\\test_rain215.jpg",
+      1
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\train_sunrise210.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\test_cloudy279.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\train_cloudy224.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\rain\\test_rain209.jpg",
+      1
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\train_sunrise224.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\rain\\test_rain165.jpg",
+      1
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\test_cloudy276.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\train_sunrise119.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\train_cloudy120.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\train_sunrise12.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\train_cloudy177.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\shine\\train_shine147.jpg",
+      2
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\rain\\train_rain161.jpg",
+      1
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\train_cloudy20.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\rain\\train_rain40.jpg",
+      1
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\shine\\train_shine43.jpg",
+      2
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\train_sunrise171.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\train_cloudy147.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\train_sunrise52.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\rain\\train_rain68.jpg",
+      1
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\train_cloudy99.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\train_sunrise101.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\test_sunrise290.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\rain\\test_rain191.jpg",
+      1
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\test_sunrise294.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\train_sunrise84.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\train_cloudy17.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\train_sunrise245.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\shine\\train_shine11.jpg",
+      2
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\shine\\test_shine229.jpg",
+      2
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\test_cloudy296.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\test_cloudy246.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\shine\\test_shine232.jpg",
+      2
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\train_cloudy216.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\train_sunrise132.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\train_sunrise64.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\train_cloudy103.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\train_sunrise256.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\shine\\train_shine40.jpg",
+      2
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\train_cloudy80.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\rain\\test_rain179.jpg",
+      1
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\test_cloudy239.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\train_sunrise71.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\rain\\train_rain19.jpg",
+      1
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\test_sunrise269.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\shine\\train_shine128.jpg",
+      2
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\test_sunrise314.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\train_sunrise9.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\train_cloudy189.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\train_sunrise202.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\test_sunrise341.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\rain\\train_rain2.jpg",
+      1
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\train_sunrise246.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\shine\\train_shine83.jpg",
+      2
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\shine\\train_shine53.jpg",
+      2
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\rain\\test_rain189.jpg",
+      1
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\train_sunrise5.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\test_cloudy274.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\train_cloudy124.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\rain\\train_rain73.jpg",
+      1
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\shine\\test_shine227.jpg",
+      2
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\train_cloudy15.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\shine\\train_shine35.jpg",
+      2
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\shine\\train_shine143.jpg",
+      2
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\shine\\train_shine174.jpg",
+      2
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\rain\\train_rain37.jpg",
+      1
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\train_sunrise63.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\train_cloudy46.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\train_cloudy88.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\train_sunrise110.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\train_sunrise194.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\train_cloudy203.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\train_cloudy166.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\shine\\train_shine66.jpg",
+      2
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\train_cloudy126.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\train_cloudy104.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\train_sunrise233.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\train_sunrise218.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\shine\\train_shine178.jpg",
+      2
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\train_cloudy11.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\shine\\test_shine207.jpg",
+      2
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\test_sunrise329.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\shine\\test_shine202.jpg",
+      2
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\train_sunrise56.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\cloudy\\train_cloudy78.jpg",
+      0
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\test_sunrise334.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\train_sunrise121.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\rain\\train_rain47.jpg",
+      1
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\shine\\test_shine243.jpg",
+      2
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\rain\\train_rain99.jpg",
+      1
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\sunrise\\train_sunrise168.jpg",
+      3
+    ],
+    [
+      "C:\\Users\\konda\\OneDrive\\Desktop\\DL project\\aquawatch\\data\\weather_raw\\shine\\train_shine32.jpg",
+      2
+    ]
+  ],
+  "class_names": [
+    "cloudy",
+    "rain",
+    "shine",
+    "sunrise"
+  ],
+  "seed": 42
+}

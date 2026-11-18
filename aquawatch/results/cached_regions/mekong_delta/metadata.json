@@ -1,0 +1,27 @@
+{
+  "id": "mekong_delta",
+  "name": "Mekong River Basin",
+  "state_country": "Cambodia / Vietnam",
+  "description": "Extensive agricultural floodplain showing seasonal monsoon flooding and river overflow.",
+  "dates": [
+    "2019-08-10",
+    "2019-09-25"
+  ],
+  "event_label": "Mekong Monsoon Inundation",
+  "stats": {
+    "area_before_km2": 0.328,
+    "area_after_km2": 0.999,
+    "diff_km2": 0.671,
+    "pct_change": 204.57,
+    "flooded_area_km2": 0.67,
+    "receded_area_km2": 0.0,
+    "unchanged_area_km2": 0.328
+  },
+  "images": {
+    "before_rgb": "/api/static/cached_regions/mekong_delta/before_rgb.png",
+    "after_rgb": "/api/static/cached_regions/mekong_delta/after_rgb.png",
+    "before_mask": "/api/static/cached_regions/mekong_delta/before_mask.png",
+    "after_mask": "/api/static/cached_regions/mekong_delta/after_mask.png",
+    "change_map": "/api/static/cached_regions/mekong_delta/change_map.png"
+  }
+}

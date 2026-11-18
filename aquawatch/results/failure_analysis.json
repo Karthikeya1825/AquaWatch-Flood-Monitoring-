@@ -1,0 +1,38 @@
+[
+  {
+    "chip_name": "Paraguay_913449_S2Hand.tif",
+    "event": "Paraguay",
+    "ndwi_iou": 0.0,
+    "unet_iou": 0.0214,
+    "water_pixels": 5517,
+    "failure_category": "Sediment & Turbidity",
+    "explanation": "Sediment & Turbidity: High suspended sediment concentrations drastically elevate NIR reflectance, causing NDWI to underestimate water extent."
+  },
+  {
+    "chip_name": "Paraguay_34417_S2Hand.tif",
+    "event": "Paraguay",
+    "ndwi_iou": 0.0,
+    "unet_iou": 1.0,
+    "water_pixels": 50026,
+    "failure_category": "Sediment & Turbidity",
+    "explanation": "Sediment & Turbidity: High suspended sediment concentrations drastically elevate NIR reflectance, causing NDWI to underestimate water extent."
+  },
+  {
+    "chip_name": "Sri-Lanka_377277_S2Hand.tif",
+    "event": "Sri-Lanka",
+    "ndwi_iou": 0.0049,
+    "unet_iou": 0.0333,
+    "water_pixels": 8603,
+    "failure_category": "Mixed pixels and sensor atmospheric attenuation along boundary interfaces.",
+    "explanation": "Mixed pixels and sensor atmospheric attenuation along boundary interfaces."
+  },
+  {
+    "chip_name": "Sri-Lanka_117737_S2Hand.tif",
+    "event": "Sri-Lanka",
+    "ndwi_iou": 0.036,
+    "unet_iou": 0.0261,
+    "water_pixels": 6731,
+    "failure_category": "Mixed pixels and sensor atmospheric attenuation along boundary interfaces.",
+    "explanation": "Mixed pixels and sensor atmospheric attenuation along boundary interfaces."
+  }
+]

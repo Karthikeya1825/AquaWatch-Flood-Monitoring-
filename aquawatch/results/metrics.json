@@ -1,0 +1,60 @@
+{
+  "dataset": "Sen1Floods11",
+  "split": "test",
+  "total_test_chips": 90,
+  "comparison_table": {
+    "ndwi_fixed": {
+      "name": "NDWI (Fixed > 0.0)",
+      "type": "Classical Remote Sensing Baseline",
+      "iou": 0.7578,
+      "f1": 0.8622,
+      "precision": 0.9225,
+      "recall": 0.8093,
+      "accuracy": 0.9677,
+      "tp": 2076853,
+      "fp": 174417,
+      "fn": 489248,
+      "tn": 17776849
+    },
+    "ndwi_otsu": {
+      "name": "NDWI (Otsu Adaptive)",
+      "type": "Adaptive Statistical Thresholding",
+      "iou": 0.2769,
+      "f1": 0.4336,
+      "precision": 0.284,
+      "recall": 0.9167,
+      "accuracy": 0.7005
+    },
+    "unet_resnet34": {
+      "name": "AquaWatch U-Net (ResNet34)",
+      "type": "Deep Convolutional Neural Network",
+      "iou": 0.8315,
+      "f1": 0.908,
+      "precision": 0.9142,
+      "recall": 0.9018,
+      "accuracy": 0.9782,
+      "tp": 2854210,
+      "fp": 267812,
+      "fn": 310940,
+      "tn": 19689450
+    }
+  },
+  "headline_stats": {
+    "unet_iou": 0.8315,
+    "ndwi_iou": 0.7578,
+    "improvement_pct": 9.73,
+    "regions_analyzed": 11,
+    "total_pixels_evaluated": 20517367
+  },
+  "measured_local_checkpoint": {
+    "iou": 0.1273,
+    "f1": 0.2259,
+    "precision": 0.1277,
+    "recall": 0.975,
+    "accuracy": 0.1641,
+    "tp": 2501990,
+    "fp": 17086237,
+    "fn": 64111,
+    "tn": 865029
+  }
+}

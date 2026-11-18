@@ -1,0 +1,27 @@
+{
+  "id": "chennai_historic_2015",
+  "name": "Adyar Basin & Chembarambakkam (2015 Flood)",
+  "state_country": "Chennai, Tamil Nadu, India",
+  "description": "Historic December 2015 floods in Chennai triggered by torrential Northeast monsoon precipitation.",
+  "dates": [
+    "2015-11-15",
+    "2015-12-05"
+  ],
+  "event_label": "Historic Chennai Floods (Dec 2015)",
+  "stats": {
+    "area_before_km2": 11.732,
+    "area_after_km2": 17.755,
+    "diff_km2": 6.023,
+    "pct_change": 51.34,
+    "flooded_area_km2": 6.022,
+    "receded_area_km2": 0.0,
+    "unchanged_area_km2": 11.732
+  },
+  "images": {
+    "before_rgb": "/api/static/cached_regions/chennai_historic_2015/before_rgb.png",
+    "after_rgb": "/api/static/cached_regions/chennai_historic_2015/after_rgb.png",
+    "before_mask": "/api/static/cached_regions/chennai_historic_2015/before_mask.png",
+    "after_mask": "/api/static/cached_regions/chennai_historic_2015/after_mask.png",
+    "change_map": "/api/static/cached_regions/chennai_historic_2015/change_map.png"
+  }
+}

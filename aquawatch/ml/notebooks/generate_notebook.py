@@ -1,0 +1,466 @@
+"""
+Helper to generate aquawatch/ml/notebooks/train_colab.ipynb
+"""
+
+import json
+from pathlib import Path
+
+notebook = {
+ "cells": [
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "# 🛰️ AquaWatch: Satellite Flood Segmentation Training (Sen1Floods11)\n",
+    "### End-to-End Deep Learning Training Pipeline on GPU (U-Net with Pretrained ResNet34)\n",
+    "\n",
+    "[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github)\n",
+    "\n",
+    "**Project:** AquaWatch - Deep Learning for Flood and Waterbody Change Detection using Sentinel Satellite Imagery  \n",
+    "**Dataset:** Sen1Floods11 (Cloud to Street, CVPR Workshops 2020) - Official Hand-Labeled Subset (v1.1)  \n",
+    "**Architecture:** U-Net with ResNet34 Backbone (Transfer Learning from ImageNet adapted for 4 Sentinel-2 Optical Bands: Blue, Green, Red, NIR)  \n",
+    "**Loss:** Masked Binary Cross-Entropy + Dice Loss (ignoring cloud/no-data pixels labeled as -1)  \n"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "## 1. Verify GPU Acceleration\n",
+    "Make sure your Colab runtime is set to GPU: **Runtime -> Change runtime type -> Hardware accelerator -> T4 GPU**."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": None,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "!nvidia-smi"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "## 2. Install Required Dependencies"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": None,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "!pip install -q segmentation-models-pytorch albumentations tifffile pyyaml tqdm requests matplotlib"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "## 3. Download Official Sen1Floods11 Hand-Labeled Dataset\n",
+    "Downloads official train, validation, and test splits directly from the Google Cloud Storage public mirror."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": None,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "import os, sys, csv, urllib.request\n",
+    "from pathlib import Path\n",
+    "from concurrent.futures import ThreadPoolExecutor\n",
+    "\n",
+    "DATA_DIR = Path(\"aquawatch_data\")\n",
+    "SPLITS_DIR = DATA_DIR / \"splits\"\n",
+    "S2_DIR = DATA_DIR / \"raw\" / \"S2Hand\"\n",
+    "LABEL_DIR = DATA_DIR / \"raw\" / \"LabelHand\"\n",
+    "\n",
+    "for p in [SPLITS_DIR, S2_DIR, LABEL_DIR]:\n",
+    "    p.mkdir(parents=True, exist_ok=True)\n",
+    "\n",
+    "BASE_URL = \"https://storage.googleapis.com/sen1floods11/v1.1\"\n",
+    "SPLIT_FILES = [\"flood_train_data.csv\", \"flood_valid_data.csv\", \"flood_test_data.csv\"]\n",
+    "\n",
+    "print(\"Downloading split definitions...\")\n",
+    "for sf in SPLIT_FILES:\n",
+    "    url = f\"{BASE_URL}/splits/flood_handlabeled/{sf}\"\n",
+    "    urllib.request.urlretrieve(url, SPLITS_DIR / sf)\n",
+    "\n",
+    "def download_file(url, dest):\n",
+    "    if dest.exists() and dest.stat().st_size > 100:\n",
+    "        return True\n",
+    "    try:\n",
+    "        urllib.request.urlretrieve(url, dest)\n",
+    "        return True\n",
+    "    except Exception as e:\n",
+    "        return False\n",
+    "\n",
+    "# Collect all image/label pairs across train, valid, test\n",
+    "all_pairs = []\n",
+    "for sf in SPLIT_FILES:\n",
+    "    with open(SPLITS_DIR / sf) as f:\n",
+    "        for row in csv.reader(f):\n",
+    "            if row and len(row) >= 2:\n",
+    "                s2_name = row[0].strip().replace(\"_S1Hand.tif\", \"_S2Hand.tif\")\n",
+    "                lbl_name = row[1].strip()\n",
+    "                all_pairs.append((s2_name, lbl_name))\n",
+    "\n",
+    "print(f\"Total unique hand-labeled pairs to download: {len(all_pairs)}\")\n",
+    "\n",
+    "def download_pair(pair):\n",
+    "    s2_file, lbl_file = pair\n",
+    "    ok1 = download_file(f\"{BASE_URL}/data/flood_events/HandLabeled/S2Hand/{s2_file}\", S2_DIR / s2_file)\n",
+    "    ok2 = download_file(f\"{BASE_URL}/data/flood_events/HandLabeled/LabelHand/{lbl_file}\", LABEL_DIR / lbl_file)\n",
+    "    return ok1 and ok2\n",
+    "\n",
+    "with ThreadPoolExecutor(max_workers=12) as ex:\n",
+    "    results = list(ex.map(download_pair, all_pairs))\n",
+    "\n",
+    "print(f\"Successfully downloaded: {sum(results)} / {len(all_pairs)} pairs.\")"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "## 4. PyTorch Dataset & Transforms Pipeline"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": None,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "import numpy as np\n",
+    "import tifffile\n",
+    "import torch\n",
+    "from torch.utils.data import Dataset, DataLoader\n",
+    "import albumentations as A\n",
+    "\n",
+    "DEFAULT_BANDS = [1, 2, 3, 7]  # Blue (B2), Green (B3), Red (B4), NIR (B8)\n",
+    "\n",
+    "train_transforms = A.Compose([\n",
+    "    A.HorizontalFlip(p=0.5),\n",
+    "    A.VerticalFlip(p=0.5),\n",
+    "    A.RandomRotate90(p=0.5),\n",
+    "    A.ShiftScaleRotate(shift_limit=0.05, scale_limit=0.08, rotate_limit=15, border_mode=0, p=0.5)\n",
+    "])\n",
+    "\n",
+    "class Sen1Floods11Dataset(Dataset):\n",
+    "    def __init__(self, data_dir, split=\"train\", bands=DEFAULT_BANDS, transform=None):\n",
+    "        self.s2_dir = Path(data_dir) / \"raw\" / \"S2Hand\"\n",
+    "        self.lbl_dir = Path(data_dir) / \"raw\" / \"LabelHand\"\n",
+    "        self.bands = bands\n",
+    "        self.transform = transform\n",
+    "        \n",
+    "        csv_path = Path(data_dir) / \"splits\" / f\"flood_{split}_data.csv\"\n",
+    "        self.pairs = []\n",
+    "        with open(csv_path) as f:\n",
+    "            for row in csv.reader(f):\n",
+    "                if len(row) >= 2:\n",
+    "                    s2_name = row[0].strip().replace(\"_S1Hand.tif\", \"_S2Hand.tif\")\n",
+    "                    lbl_name = row[1].strip()\n",
+    "                    if (self.s2_dir / s2_name).exists() and (self.lbl_dir / lbl_name).exists():\n",
+    "                        self.pairs.append((self.s2_dir / s2_name, self.lbl_dir / lbl_name, s2_name))\n",
+    "\n",
+    "    def __len__(self):\n",
+    "        return len(self.pairs)\n",
+    "\n",
+    "    def __getitem__(self, idx):\n",
+    "        s2_path, lbl_path, name = self.pairs[idx]\n",
+    "        s2 = tifffile.imread(str(s2_path))\n",
+    "        if s2.ndim == 3 and s2.shape[2] == 13:\n",
+    "            s2 = np.transpose(s2, (2, 0, 1))\n",
+    "        s2_selected = s2[self.bands, :, :].transpose((1, 2, 0)).astype(np.float32)\n",
+    "        # Normalize 10,000x TOA reflectance\n",
+    "        s2_norm = np.clip(s2_selected / 10000.0, 0.0, 1.0)\n",
+    "\n",
+    "        lbl = tifffile.imread(str(lbl_path))\n",
+    "        if lbl.ndim == 3:\n",
+    "            lbl = lbl[0]\n",
+    "        lbl = lbl.astype(np.float32)\n",
+    "\n",
+    "        if self.transform:\n",
+    "            augmented = self.transform(image=s2_norm, mask=lbl)\n",
+    "            s2_norm = augmented[\"image\"]\n",
+    "            lbl = augmented[\"mask\"]\n",
+    "\n",
+    "        img_tensor = torch.from_numpy(s2_norm.transpose((2, 0, 1))).float()\n",
+    "        lbl_tensor = torch.from_numpy(lbl).unsqueeze(0).float()\n",
+    "        return {\"image\": img_tensor, \"mask\": lbl_tensor, \"name\": name}\n",
+    "\n",
+    "train_ds = Sen1Floods11Dataset(DATA_DIR, split=\"train\", transform=train_transforms)\n",
+    "val_ds = Sen1Floods11Dataset(DATA_DIR, split=\"valid\")\n",
+    "test_ds = Sen1Floods11Dataset(DATA_DIR, split=\"test\")\n",
+    "\n",
+    "train_loader = DataLoader(train_ds, batch_size=8, shuffle=True, num_workers=2, pin_memory=True)\n",
+    "val_loader = DataLoader(val_ds, batch_size=8, shuffle=False, num_workers=2, pin_memory=True)\n",
+    "test_loader = DataLoader(test_ds, batch_size=8, shuffle=False, num_workers=2, pin_memory=True)\n",
+    "\n",
+    "print(f\"Splits loaded: Train={len(train_ds)}, Valid={len(val_ds)}, Test={len(test_ds)}\")"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "## 5. Model Definition & Masked Loss Function\n",
+    "- U-Net with ResNet34 encoder adapted from 3 channels to 4 channels (RGB + NIR)\n",
+    "- Masked BCE + Dice Loss that strictly ignores -1 pixels (clouds / no-data)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": None,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "import torch.nn as nn\n",
+    "import torch.nn.functional as F\n",
+    "import segmentation_models_pytorch as smp\n",
+    "\n",
+    "class MaskedBCEDiceLoss(nn.Module):\n",
+    "    def __init__(self, eps=1e-6):\n",
+    "        super().__init__()\n",
+    "        self.eps = eps\n",
+    "\n",
+    "    def forward(self, logits, targets):\n",
+    "        valid = (targets != -1)\n",
+    "        if not valid.any():\n",
+    "            return torch.tensor(0.0, device=logits.device, requires_grad=True)\n",
+    "        \n",
+    "        # Masked BCE\n",
+    "        bce = F.binary_cross_entropy_with_logits(logits[valid], targets[valid])\n",
+    "        \n",
+    "        # Masked Soft Dice\n",
+    "        probs = torch.sigmoid(logits)\n",
+    "        v_probs = probs[valid]\n",
+    "        v_targets = targets[valid]\n",
+    "        intersection = torch.sum(v_probs * v_targets)\n",
+    "        cardinality = torch.sum(v_probs) + torch.sum(v_targets)\n",
+    "        dice_loss = 1.0 - (2.0 * intersection + self.eps) / (cardinality + self.eps)\n",
+    "        \n",
+    "        return bce + dice_loss\n",
+    "\n",
+    "def compute_iou(logits, targets):\n",
+    "    with torch.no_grad():\n",
+    "        valid = (targets != -1)\n",
+    "        preds = (torch.sigmoid(logits) > 0.5)\n",
+    "        v_preds = preds[valid]\n",
+    "        v_targets = (targets[valid] == 1)\n",
+    "        tp = (v_preds & v_targets).sum().float().item()\n",
+    "        fp = (v_preds & (~v_targets)).sum().float().item()\n",
+    "        fn = ((~v_preds) & v_targets).sum().float().item()\n",
+    "        denom = tp + fp + fn\n",
+    "        return tp / denom if denom > 0 else 0.0\n",
+    "\n",
+    "# Create U-Net with ResNet34\n",
+    "device = torch.device(\"cuda\" if torch.cuda.is_available() else \"cpu\")\n",
+    "model = smp.Unet(\n",
+    "    encoder_name=\"resnet34\",\n",
+    "    encoder_weights=\"imagenet\",\n",
+    "    in_channels=4,\n",
+    "    classes=1\n",
+    ").to(device)\n",
+    "\n",
+    "print(f\"Model instantiated on: {device}\")"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "## 6. Training Execution with Mixed Precision (FP16)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": None,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "import time\n",
+    "\n",
+    "EPOCHS = 35\n",
+    "criterion = MaskedBCEDiceLoss()\n",
+    "optimizer = torch.optim.AdamW(model.parameters(), lr=5e-4, weight_decay=1e-4)\n",
+    "scheduler = torch.optim.lr_scheduler.CosineAnnealingLR(optimizer, T_max=EPOCHS, eta_min=1e-6)\n",
+    "scaler = torch.cuda.amp.GradScaler(enabled=(device.type == \"cuda\"))\n",
+    "\n",
+    "history = {\"train_loss\": [], \"train_iou\": [], \"val_loss\": [], \"val_iou\": []}\n",
+    "best_val_iou = 0.0\n",
+    "best_weights_path = \"best_model.pt\"\n",
+    "\n",
+    "start_time = time.time()\n",
+    "for epoch in range(1, EPOCHS + 1):\n",
+    "    # Train\n",
+    "    model.train()\n",
+    "    t_loss, t_iou, n_b = 0.0, 0.0, 0\n",
+    "    for batch in train_loader:\n",
+    "        images = batch[\"image\"].to(device)\n",
+    "        masks = batch[\"mask\"].to(device)\n",
+    "        \n",
+    "        optimizer.zero_grad()\n",
+    "        with torch.cuda.amp.autocast(enabled=(device.type == \"cuda\")):\n",
+    "            logits = model(images)\n",
+    "            loss = criterion(logits, masks)\n",
+    "        \n",
+    "        scaler.scale(loss).backward()\n",
+    "        scaler.step(optimizer)\n",
+    "        scaler.update()\n",
+    "        \n",
+    "        t_loss += loss.item()\n",
+    "        t_iou += compute_iou(logits, masks)\n",
+    "        n_b += 1\n",
+    "    \n",
+    "    avg_t_loss = t_loss / n_b\n",
+    "    avg_t_iou = t_iou / n_b\n",
+    "    \n",
+    "    # Validation\n",
+    "    model.eval()\n",
+    "    v_loss, v_iou, n_vb = 0.0, 0.0, 0\n",
+    "    with torch.no_grad():\n",
+    "        for batch in val_loader:\n",
+    "            images = batch[\"image\"].to(device)\n",
+    "            masks = batch[\"mask\"].to(device)\n",
+    "            with torch.cuda.amp.autocast(enabled=(device.type == \"cuda\")):\n",
+    "                logits = model(images)\n",
+    "                loss = criterion(logits, masks)\n",
+    "            v_loss += loss.item()\n",
+    "            v_iou += compute_iou(logits, masks)\n",
+    "            n_vb += 1\n",
+    "            \n",
+    "    avg_v_loss = v_loss / n_vb\n",
+    "    avg_v_iou = v_iou / n_vb\n",
+    "    scheduler.step()\n",
+    "    \n",
+    "    history[\"train_loss\"].append(round(avg_t_loss, 4))\n",
+    "    history[\"train_iou\"].append(round(avg_t_iou, 4))\n",
+    "    history[\"val_loss\"].append(round(avg_v_loss, 4))\n",
+    "    history[\"val_iou\"].append(round(avg_v_iou, 4))\n",
+    "    \n",
+    "    if avg_v_iou > best_val_iou:\n",
+    "        best_val_iou = avg_v_iou\n",
+    "        torch.save(model.state_dict(), best_weights_path)\n",
+    "        saved_marker = f\" --> Saved New Best! (Val IoU: {avg_v_iou:.4f})\"\n",
+    "    else:\n",
+    "        saved_marker = \"\"\n",
+    "        \n",
+    "    print(f\"Epoch [{epoch:02d}/{EPOCHS:02d}] Train Loss: {avg_t_loss:.4f} | Train IoU: {avg_t_iou:.4f} | Val Loss: {avg_v_loss:.4f} | Val IoU: {avg_v_iou:.4f}{saved_marker}\")\n",
+    "\n",
+    "print(f\"\\nTraining finished in {(time.time() - start_time)/60:.1f} minutes. Best Val IoU: {best_val_iou:.4f}\")"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "## 7. Evaluate Best Model on the Official Test Split (90 Chips)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": None,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "import json\n",
+    "\n",
+    "model.load_state_dict(torch.load(best_weights_path))\n",
+    "model.eval()\n",
+    "\n",
+    "tp, fp, fn, tn = 0, 0, 0, 0\n",
+    "with torch.no_grad():\n",
+    "    for batch in test_loader:\n",
+    "        images = batch[\"image\"].to(device)\n",
+    "        masks = batch[\"mask\"].to(device)\n",
+    "        logits = model(images)\n",
+    "        probs = torch.sigmoid(logits)\n",
+    "        preds = (probs > 0.5)\n",
+    "        \n",
+    "        valid = (masks != -1)\n",
+    "        v_preds = preds[valid]\n",
+    "        v_targets = (masks[valid] == 1)\n",
+    "        \n",
+    "        tp += int((v_preds & v_targets).sum().item())\n",
+    "        fp += int((v_preds & (~v_targets)).sum().item())\n",
+    "        fn += int(((~v_preds) & v_targets).sum().item())\n",
+    "        tn += int(((~v_preds) & (~v_targets)).sum().item())\n",
+    "\n",
+    "test_iou = tp / (tp + fp + fn)\n",
+    "test_f1 = (2 * tp) / (2 * tp + fp + fn)\n",
+    "test_prec = tp / (tp + fp)\n",
+    "test_rec = tp / (tp + fn)\n",
+    "test_acc = (tp + tn) / (tp + tn + fp + fn)\n",
+    "\n",
+    "print(\"=\" * 70)\n",
+    "print(\"U-NET (RESNET34) FINAL TEST RESULTS (90 CHIPS)\")\n",
+    "print(\"=\" * 70)\n",
+    "print(f\"Test IoU (Water): {test_iou:.4f} ({test_iou*100:.2f}%)\")\n",
+    "print(f\"Test F1 / Dice:  {test_f1:.4f} ({test_f1*100:.2f}%)\")\n",
+    "print(f\"Test Precision:  {test_prec:.4f} ({test_prec*100:.2f}%)\")\n",
+    "print(f\"Test Recall:     {test_rec:.4f} ({test_rec*100:.2f}%)\")\n",
+    "print(f\"Test Accuracy:   {test_acc:.4f} ({test_acc*100:.2f}%)\")\n",
+    "print(\"=\" * 70)\n",
+    "\n",
+    "# Save metrics and history\n",
+    "with open(\"curves.json\", \"w\") as f:\n",
+    "    json.dump(history, f, indent=2)\n",
+    "\n",
+    "final_metrics = {\n",
+    "    \"unet_resnet34\": {\n",
+    "        \"iou\": round(test_iou, 4),\n",
+    "        \"f1\": round(test_f1, 4),\n",
+    "        \"precision\": round(test_prec, 4),\n",
+    "        \"recall\": round(test_rec, 4),\n",
+    "        \"accuracy\": round(test_acc, 4),\n",
+    "        \"tp\": tp, \"fp\": fp, \"fn\": fn, \"tn\": tn\n",
+    "    }\n",
+    "}\n",
+    "with open(\"metrics.json\", \"w\") as f:\n",
+    "    json.dump(final_metrics, f, indent=2)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "## 8. Export Weights & Metrics to Bring Back to Laptop"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": None,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "from google.colab import files\n",
+    "!zip -j aquawatch_colab_results.zip best_model.pt curves.json metrics.json\n",
+    "print(\"Downloading aquawatch_colab_results.zip...\")\n",
+    "files.download(\"aquawatch_colab_results.zip\")"
+   ]
+  }
+ ],
+ "metadata": {
+  "accelerator": "GPU",
+  "colab": {
+   "gpuType": "T4",
+   "provenance": []
+  },
+  "language_info": {
+   "name": "python"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 0
+}
+
+out_path = Path("aquawatch/ml/notebooks/train_colab.ipynb")
+out_path.parent.mkdir(parents=True, exist_ok=True)
+with open(out_path, "w", encoding="utf-8") as f:
+    json.dump(notebook, f, indent=1)
+print(f"Generated Colab notebook at: {out_path}")

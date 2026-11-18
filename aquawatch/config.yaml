@@ -1,0 +1,58 @@
+project:
+  name: "AquaWatch"
+  title: "Flood & Waterbody Change Detection from Sentinel Satellite Imagery"
+  seed: 42
+
+dataset:
+  name: "Sen1Floods11"
+  version: "v1.1"
+  gcs_base_url: "https://storage.googleapis.com/sen1floods11"
+  gcs_bucket: "gs://sen1floods11"
+  data_dir: "data"
+  raw_dir: "data/raw"
+  splits_dir: "data/splits"
+  samples_dir: "data/samples"
+  # Sentinel-2 Band selection:
+  # Indices: 1: Blue (B2), 2: Green (B3), 3: Red (B4), 7: NIR (B8)
+  # Standard 4-band (RGB+NIR) enables standard NDWI = (B3 - B8) / (B3 + B8)
+  # and seamless integration with Sentinel-2 L2A / L1C RGB+NIR products
+  selected_bands: [1, 2, 3, 7] # 0-indexed: [B2, B3, B4, B8]
+  band_names: ["B2_Blue", "B3_Green", "B4_Red", "B8_NIR"]
+  in_channels: 4
+  image_size: 512
+  ignore_index: -1
+  scale_factor: 10000.0  # Sentinel-2 reflectance scale factor
+
+model:
+  architecture: "Unet"
+  encoder_name: "resnet34"
+  encoder_weights: "imagenet"
+  in_channels: 4
+  classes: 1
+  activation: null # raw logits for BCEWithLogitsLoss
+
+training:
+  batch_size: 8
+  num_workers: 2
+  epochs: 35
+  learning_rate: 0.0005
+  weight_decay: 0.0001
+  scheduler: "cosine" # cosine or plateau
+  min_lr: 0.000001
+  patience: 8 # early stopping patience
+  quick_test:
+    batch_size: 2
+    epochs: 2
+    samples: 10
+
+evaluation:
+  test_batch_size: 4
+  ndwi_threshold: 0.0
+  otsu_baseline: true
+
+paths:
+  results_dir: "results"
+  checkpoints_dir: "results/checkpoints"
+  figures_dir: "results/figures"
+  metrics_file: "results/metrics.json"
+  curves_file: "results/curves.json"

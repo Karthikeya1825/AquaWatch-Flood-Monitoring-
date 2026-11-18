@@ -1,0 +1,119 @@
+[
+  {
+    "id": "chembarambakkam_lake",
+    "name": "Chembarambakkam Lake, Chennai",
+    "state_country": "Tamil Nadu, India",
+    "description": "Critical reservoir catering to Chennai's drinking water, heavily inundated during Cyclone Michaung (Dec 2023).",
+    "dates": [
+      "2023-10-07",
+      "2024-01-15"
+    ],
+    "event_label": "Cyclone Michaung (Dec 2023)",
+    "stats": {
+      "area_before_km2": 26.35,
+      "area_after_km2": 46.18,
+      "diff_km2": 19.83,
+      "pct_change": 75.3,
+      "flooded_area_km2": 21.24,
+      "receded_area_km2": 1.41,
+      "unchanged_area_km2": 24.94,
+      "is_real_data": true
+    },
+    "images": {
+      "before_rgb": "/api/static/cached_regions/chembarambakkam_lake/before_rgb.png",
+      "after_rgb": "/api/static/cached_regions/chembarambakkam_lake/after_rgb.png",
+      "before_mask": "/api/static/cached_regions/chembarambakkam_lake/before_mask.png",
+      "after_mask": "/api/static/cached_regions/chembarambakkam_lake/after_mask.png",
+      "change_map": "/api/static/cached_regions/chembarambakkam_lake/change_map.png"
+    },
+    "is_real_data": true,
+    "source_type": "Real Sentinel-2 L2A Satellite Observations (Tile 44PLV, Copernicus)"
+  },
+  {
+    "id": "chennai_historic_2015",
+    "name": "Adyar Basin & Chembarambakkam (2015 Flood)",
+    "state_country": "Chennai, Tamil Nadu, India",
+    "description": "Historic December 2015 floods in Chennai triggered by torrential Northeast monsoon precipitation.",
+    "dates": [
+      "2015-11-15",
+      "2015-12-05"
+    ],
+    "event_label": "Historic Chennai Floods (Dec 2015)",
+    "stats": {
+      "area_before_km2": 11.732,
+      "area_after_km2": 17.755,
+      "diff_km2": 6.023,
+      "pct_change": 51.34,
+      "flooded_area_km2": 6.022,
+      "receded_area_km2": 0.0,
+      "unchanged_area_km2": 11.732
+    },
+    "images": {
+      "before_rgb": "/api/static/cached_regions/chennai_historic_2015/before_rgb.png",
+      "after_rgb": "/api/static/cached_regions/chennai_historic_2015/after_rgb.png",
+      "before_mask": "/api/static/cached_regions/chennai_historic_2015/before_mask.png",
+      "after_mask": "/api/static/cached_regions/chennai_historic_2015/after_mask.png",
+      "change_map": "/api/static/cached_regions/chennai_historic_2015/change_map.png"
+    },
+    "is_real_data": false,
+    "source_type": "Official Sen1Floods11 Hand-Labeled Chip (CVPRW 2020)"
+  },
+  {
+    "id": "mekong_delta",
+    "name": "Mekong River Basin",
+    "state_country": "Cambodia / Vietnam",
+    "description": "Extensive agricultural floodplain showing seasonal monsoon flooding and river overflow.",
+    "dates": [
+      "2019-08-10",
+      "2019-09-25"
+    ],
+    "event_label": "Mekong Monsoon Inundation",
+    "stats": {
+      "area_before_km2": 0.328,
+      "area_after_km2": 0.999,
+      "diff_km2": 0.671,
+      "pct_change": 204.57,
+      "flooded_area_km2": 0.67,
+      "receded_area_km2": 0.0,
+      "unchanged_area_km2": 0.328
+    },
+    "images": {
+      "before_rgb": "/api/static/cached_regions/mekong_delta/before_rgb.png",
+      "after_rgb": "/api/static/cached_regions/mekong_delta/after_rgb.png",
+      "before_mask": "/api/static/cached_regions/mekong_delta/before_mask.png",
+      "after_mask": "/api/static/cached_regions/mekong_delta/after_mask.png",
+      "change_map": "/api/static/cached_regions/mekong_delta/change_map.png"
+    },
+    "is_real_data": false,
+    "source_type": "Official Sen1Floods11 Hand-Labeled Chip (CVPRW 2020)"
+  },
+  {
+    "id": "usa_gulf_coast",
+    "name": "Gulf Coast Wetlands",
+    "state_country": "Louisiana, USA",
+    "description": "Coastal lowlands impacted by hurricane storm surges and backwater flooding.",
+    "dates": [
+      "2019-05-12",
+      "2019-06-02"
+    ],
+    "event_label": "Mississippi Spring Flood",
+    "stats": {
+      "area_before_km2": 4.447,
+      "area_after_km2": 5.477,
+      "diff_km2": 1.03,
+      "pct_change": 23.16,
+      "flooded_area_km2": 1.031,
+      "receded_area_km2": 0.0,
+      "unchanged_area_km2": 4.447
+    },
+    "images": {
+      "before_rgb": "/api/static/cached_regions/usa_gulf_coast/before_rgb.png",
+      "after_rgb": "/api/static/cached_regions/usa_gulf_coast/after_rgb.png",
+      "before_mask": "/api/static/cached_regions/usa_gulf_coast/before_mask.png",
+      "after_mask": "/api/static/cached_regions/usa_gulf_coast/after_mask.png",
+      "change_map": "/api/static/cached_regions/usa_gulf_coast/change_map.png"
+    },
+    "is_real_data": false,
+    "source_type": "Official Sen1Floods11 Hand-Labeled Chip (CVPRW 2020)"
+  }
+]
